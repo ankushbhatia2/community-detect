@@ -240,8 +240,16 @@ class Community(object):
         #    print(err)
 
     #Requires Matplotlib
-    def view_communities(self, communities, knngraph):
+    def view_communities(self, communities, Graph, vertices, similarity_matrix, similarity_matrix_type):
         try:
+            # Total Edges
+            m = len(Graph.edges())
+            # Setting k for knn graph
+            k = (m // len(vertices))
+            # Making a k-nearest-neighbour-graph
+            knngraph = self.make_k_nearest_neighbour_graph(Graph=Graph, vertices=vertices, k=k,
+                                                       similarity_matrix=similarity_matrix,
+                                                       similarity_matrix_type=similarity_matrix_type)
             #Viewing Graph
             pos = nx.spring_layout(knngraph)
             red_edges = []
