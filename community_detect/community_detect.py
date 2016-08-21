@@ -16,8 +16,8 @@ limitations under the License. """
 #-------------------------------------------------------------------------------
 # Name:        community-detect.py
 # Purpose:     A community detection module based on my research paper :
-#              "Community detection for personalization in networks based
-#              on structural and persona similarities"
+#              *Paper yet to be published*
+#
 #
 # Author:      Ankush Bhatia
 #

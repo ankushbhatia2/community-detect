@@ -6,7 +6,7 @@ Community detection using attribute and structural similarities.
 
 Installation:
 
-python setup.py install
+pip install community_detect
 
 Dependencies:
 
