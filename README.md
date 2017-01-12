@@ -34,7 +34,7 @@ Usage:
             Returns a dictionary with each key containing all the nodes in that community
             
             
-  To View Communities : view_communities(Communities, #Output of above function
+      To View Communities : view_communities(Communities, #Output of above function
                                        Graph, #Your Graph
                                        Vertices, #List of Vertices              
                                        Similarity Matrix, #Similarity matrix for attribute similarities (It should be a N X N matrix where N is the number of vertices 
